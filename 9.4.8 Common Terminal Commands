@@ -1,0 +1,45 @@
+Colby Russell 
+Exercise 9.4.8 Common Terminal Commands 
+Part I
+1. make a directory called first
+    mk dir first
+2. change directory to the first folder
+    cd first
+3. create a file called person.txt
+    touch person.txt
+4. change the name of person.txt to another.txt
+    mv person.txt another.txt
+5. make a copy of the another.txt file and call it copy.txt
+    cp another.txt copy.txt
+6. remove the copy.txt file
+    rm copy.txt
+7. make a copy of the first folder and call it second
+    cp -r first second (make sure you are in the proper directory)
+8. delete the second folder
+    rm -rf second
+
+Part II
+1. What does the man command do? Type in man rm. How do you scroll and get out?
+    Man command will bring you to the manual. Scrolling is done by pressing D to advance half a page, B to go back one page, and U to go back half a page; Q is used to exit the manual. 
+2. Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+    -l Flag uses a long listing format, meaning a more detailed response. 
+    -a Flag lists all files, including hidden ones. 
+3. How do you jump between words in the terminal?
+    Jumping between words in the terminal can be done by using option left/right.
+4. How do you get to the end of a line in terminal?
+    Use option+e to move to the end of a line in terminal.
+5. How do you move your cursor to the beginning in terminal?
+    Use option+a to move the cursor to the beginning of the terminal line. 
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+    Deleting a complete word in the terminal is done with option+delete. This saves you from pressing backspace the correct number of times for each character.
+7. What is the difference between a terminal and shell?
+    The terminal is an interface program that runs within the shell. The shell is what handles commands whereas the terminal allows you to interact with the environment. 
+8. What is an absolute path?
+    An absolute path starts at the root route and gives the complete location for a file or folder. 
+9. What is an relative path?
+    A relative path also gives the path showing where a file or folder is located, yet it starts at the current location and not the root route. 
+10. What is a flag? Give three examples of flags you have used.
+    Flags are additional functionality given to existing commands to give further and often more detailed instruction for the commands. For instance, the -a flag will show all files, including hidden ones when using the ls command.
+11. What do the r and f flags do with the rm command?
+    -r remove folders and recursively go through each folder and file.
+    -f will force removal.
